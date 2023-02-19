@@ -97,7 +97,7 @@ header .icons a{
 }
 
 header .icons a:hover{
-    color:var(--pink);
+    color:var(--pink); 
 }
 
 header #toggler{
