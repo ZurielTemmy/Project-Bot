@@ -146,7 +146,6 @@ header .fa-bars{
     line-height: 1.5;
 }
 
-
 .product {
     position: relative;
     overflow: hidden;
@@ -278,8 +277,6 @@ header .fa-bars{
     display: flex;
     flex-wrap: wrap;
 }
-
-
 
 .about .row{
     display: flex;
@@ -430,7 +427,6 @@ header .fa-bars{
     background: #fff;
     border-radius: .5rem;
 }
-
 .contact .row .image{
     flex:1 1 40rem;
 }
@@ -449,11 +445,9 @@ header .fa-bars{
     margin:.7rem 0;
     width: 100%;
 }
-
 .contact .row form .box:focus{
     border-color: var(--pink);
 }
-
 .contact .row form textarea{
     height: 15rem;
     resize: none;
@@ -481,16 +475,13 @@ header .fa-bars{
     font-size: 1.5rem;
     padding:1rem 0;
 }
-
 .footer .box-container .box a:hover{
     color:var(--pink);
     text-decoration: underline;
 }
-
 .footer .box-container .box  img{
     margin-top: 1rem;
 }
-
 .footer .credit{
     text-align: center;
     padding:1.5rem;
@@ -505,12 +496,6 @@ header .fa-bars{
 .footer .credit span{
     color:var(--pink);
 }
-
-
-
-
-
-
 
 /* media queries  */
 @media (max-width:991px){

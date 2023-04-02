@@ -10,8 +10,8 @@ body {
     justify-content: center;
     /* border: 1px solid black; */
 }
-#container {
-    width: 100vw;
+#chatbot-container {
+    width: 40vw;
     max-width: 540px;
 }
 h2 {
@@ -22,31 +22,15 @@ h2 {
     padding: 5px;
     margin-bottom: 10px;
 }
-span {
-    color: white;
-}
 #text-area {
     height: 75%;
     padding: 0 10px;
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
-/* #bot {
-    height: 50px;
-    width: 50px;
-} */
 #robot {
     display: flex;
     align-items: center;
-}
-h3 {
-    font-family: monospace;
-    font-size: 14px;
-    width: 100%;
-    max-width: 60%;
-    padding: 5px;
-    border-radius: 0 10px 10px 10px;
-    background: rgb(235, 226, 226);
 }
 #input {
     height: 7%;
@@ -56,20 +40,37 @@ h3 {
     margin: 8px 16px;
     border-radius: 30px;
 }
-#text {
+#chatbot-input {
     outline: none;
-    font-size: 15px;
+    font-size: 18px;
     background: rgb(236, 231, 231);
     color: black;
+    height: 40px;
     padding: 0 60px 0 20px;
     border-radius: 30px;
     border: none;
 }
-#send {
-    outline: none;
-    font-size: 15px;
-    font-weight: bold;
-    border-radius: 30px;
-    background: rgb(117, 20, 20);
-    border: 1px dotted black;
+#chatbot-messages {
+    font-family: monospace;
+    font-size: 14px;
+    width: 100%;
+    max-width: 60%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 0 10px 10px 10px;
+    background: rgb(235, 226, 226);
+    text-align: left;
+    float: left;
 }
+.user-message {
+    background: rgb(117, 20, 20);
+    color: white;
+    border-radius: 10px 0 10px 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: right;
+    float: right;
+    position: absolute;
+    right: 560px;
+  }
