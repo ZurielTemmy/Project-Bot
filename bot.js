@@ -12,7 +12,10 @@ const responses = {
     "can I return an item": "It depends. but, yes, we have a flexible return policy.",
     "do you make ammendments ?": "No, we dont.",
     "i haven't received my order yet": "Oh, apologies. Please send in your track number so we can work on this for",
-    "i need a dress": "alright ! what kind of dress are you looking for ? casual, formal, native ?",
+    "i need a dress": "Alright ! what kind of dress are you looking for ? casual, formal, native ?",
+    "native": "Alright, Great ! I can send you a link to our best collections",
+    "formal": "Alright, Great ! I can send you a link to our best collections",
+    "casual": "Alright, Great ! I can send you a link to our best collections",
     "default": "I'm sorry, I don't understand. Can you please rephrase your question?"
     
   };
