@@ -8,21 +8,18 @@
     <link rel="stylesheet" href="bot.css">
 </head>
 <body>
-    <div class="container">
-        <h2>Chat with us</h2>
-        <div id="text-area">
-            <div class="robot">
-                <div id="bot"></div>
-                <h3>Hello, how can we help you ?</h3>
-            </div>
-        </div>
-        <div id="input">
-            <input type="text" placeholder="Enter your message" id="text">
-            <button id="send">Send</button>
-        </div>
-    </div>
-
-<script src="script.js"></script>
+  <div id="chatbot-container">
     
+    <h2>Chat with us</h2>
+    <div id="text-area">
+      <div class="robot">
+        <div id="chatbot-messages"></div>
+        <!-- <h3>Hi there ! I'm Boltes Chatbot, How can I assist you ?</h3> -->
+      </div>
+    </div>
+    <input type="text" id="chatbot-input" placeholder="Type a message...">
+  </div>
+
+    <script src="bot.js"></script>
 </body>
 </html>
