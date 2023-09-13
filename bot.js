@@ -11,7 +11,7 @@ const responses = {
     "how long will it take for an order to arrive?": "Our standard shipping usually takes 5-7 business days, depending on oyur location too",
     "can I return an item": "It depends. but, yes, we have a flexible return policy.",
     "do you make ammendments ?": "No, we dont.",
-    "i haven't received my order yet": "Oh, apologies. Please send in your track number so we can work on this for",
+
     "i need a dress": "Alright ! what kind of dress are you looking for ? casual, formal, native ?",
     "native": "Alright, Great ! I can send you a link to our best collections",
     "formal": "Alright, Great ! I can send you a link to our best collections",
